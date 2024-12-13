@@ -1,0 +1,24 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "C:\\Users\\Lenovo\\.espressif\\tools\\xtensa-esp-elf-gdb\\12.1_20231023\\xtensa-esp-elf-gdb\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\riscv32-esp-elf-gdb\\12.1_20231023\\riscv32-esp-elf-gdb\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\cmake\\3.30.2\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240821\\openocd-esp32\\bin;C:\\Users\\Lenovo\\.espressif\\tools\\ninja\\1.12.1;C:\\Users\\Lenovo\\.espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\Lenovo\\.espressif\\tools\\ccache\\4.10.2\\ccache-4.10.2-windows-x86_64;C:\\Users\\Lenovo\\.espressif\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;C:\\Users\\Lenovo\\.espressif\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "C:\\Users\\Lenovo\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240821/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "C:\\Users\\Lenovo\\.espressif\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "C:\\Users\\Lenovo\\Documents\\esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.portWin": "COM27",
+    "idf.pythonBinPathWin": "C:\\Users\\Lenovo\\.espressif\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "C:\\Users\\Lenovo\\.espressif",
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "new": "cpp"
+    },
+    "idf.gitPathWin": "C:\\Users\\Lenovo\\.espressif\\tools\\idf-git\\2.39.2\\cmd\\git.exe"
+}

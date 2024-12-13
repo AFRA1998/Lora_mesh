@@ -1,0 +1,33 @@
+dependencies:
+  RadioLib:
+    component_hash: a90cf8ebbb2ce75883015bef371abcf870a36d31699a4620d060ebd79cfb21ae
+    dependencies:
+    - name: idf
+      version: '>=4.1'
+    source:
+      git: https://github.com/jgromes/RadioLib.git
+      path: .
+      type: git
+    version: a692b72347b3ddf4ce225b0afc249c1b5a445063
+  espressif/led_strip:
+    component_hash: 28c6509a727ef74925b372ed404772aeedf11cce10b78c3f69b3c66799095e2d
+    dependencies:
+    - name: idf
+      registry_url: https://components.espressif.com
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.5.5
+  idf:
+    source:
+      type: idf
+    version: 5.1.4
+direct_dependencies:
+- RadioLib
+- espressif/led_strip
+- idf
+manifest_hash: faeb4ec9d9f726fe998f0c7481dc2c285d30acad763da78a33784dd455b154d9
+target: esp32
+version: 2.0.0

@@ -1,0 +1,18 @@
+Compiler supported targets: xtensa-esp32-elf
+
+fatal: detected dubious ownership in repository at 'C:/Users/Lenovo/Documents/esp-idf/components/openthread/openthread'
+'C:/Users/Lenovo/Documents/esp-idf/components/openthread/openthread/.git' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-80711077-2252997471-2586730409-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/Lenovo/Documents/esp-idf/components/openthread/openthread
+CMake Warning at C:/Users/Lenovo/Documents/esp-idf/tools/cmake/component.cmake:270 (message):
+  SRCS and SRC_DIRS are both specified; ignoring SRC_DIRS.
+Call Stack (most recent call first):
+  C:/Users/Lenovo/Documents/esp-idf/tools/cmake/component.cmake:444 (__component_add_sources)
+  C:/Users/Lenovo/Documents/esp-idf/tools/cmake/component.cmake:653 (idf_component_register)
+  components/LoraMesher/CMakeLists.txt:21 (register_component)
+
+
