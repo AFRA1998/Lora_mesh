@@ -2,7 +2,7 @@
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
 
 
-This project is a test implementation of the LoRaMesher library under the ESP-IDF framework. The original version of the library is designed for use with PlatformIO and Arduino IDE.
+This project is based on the original LoRaMesher library "https://github.com/LoRaMesher/LoRaMesher" and serves as a test implementation under the ESP-IDF framework. The original version of the library is designed for use with PlatformIO and Arduino IDE.
 
 In this project, I have made the necessary modifications to adapt the library for compatibility with ESP-IDF, enabling its functionality within this framework. The goal is to test the library’s features and ensure it can be executed seamlessly on ESP32 devices using ESP-IDF.
 
